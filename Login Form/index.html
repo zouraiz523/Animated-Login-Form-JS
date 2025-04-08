@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Login Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bubbles">
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+    </div>
+
+    <div class="container">
+        <h2 id="loginTitle">Welcome Back</h2>
+        
+        <div class="error-message" id="errorMsg"></div>
+        <div class="success-message" id="successMsg"></div>
+        <div class="loading">
+            <div class="dots">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        
+        <form id="loginForm">
+            <div class="input-group">
+                <input type="text" id="username" required>
+                <label for="username">Username</label>
+            </div>
+            <div class="input-group">
+                <input type="password" id="password" required>
+                <label for="password">Password</label>
+                <div class="password-toggle" id="togglePassword">👁️</div>
+            </div>
+            <button type="submit" class="btn" id="loginBtn">Sign In</button>
+        </form>
+        
+        <div class="social-login">
+            <div class="social-icon">
+                <span>f</span>
+            </div>
+            <div class="social-icon">
+                <span>G</span>
+            </div>
+            <div class="social-icon">
+                <span>in</span>
+            </div>
+        </div>
+        
+        <div class="signup-link">
+            Don't have an account? <a href="#">Sign Up</a>
+        </div>
+    </div>
+
+   <script src="main.js"></script>
+</body>
+</html>
